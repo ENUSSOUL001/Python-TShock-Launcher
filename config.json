@@ -1,0 +1,43 @@
+{
+  "tshock": {
+    "version": "5.2.4",
+    "download_url": "https://github.com/Pryaxis/TShock/releases/download/v5.2.4/TShock-5.2.4-for-Terraria-1.4.4.9.zip"
+  },
+  "startup_parameters": {
+    "port": {
+      "enabled": true,
+      "argument": "-port",
+      "env_var": "SERVER_PORT",
+      "value": "7777"
+    },
+    "maxplayers": {
+      "enabled": true,
+      "argument": "-maxplayers",
+      "env_var": "MAX_PLAYERS",
+      "value": "16"
+    },
+    "world": {
+      "enabled": true,
+      "argument": "-world",
+      "env_var": "WORLD_NAME",
+      "value": "world.wld"
+    },
+    "worldpath": {
+      "enabled": true,
+      "argument": "-worldpath",
+      "value": "worlds"
+    },
+    "autocreate": {
+      "enabled": false,
+      "argument": "-autocreate",
+      "env_var": "AUTOCREATE_SIZE",
+      "value": "2"
+    },
+    "motd": {
+      "enabled": false,
+      "argument": "-motd",
+      "env_var": "MOTD",
+      "value": "Welcome to my TShock Server!"
+    }
+  }
+}
